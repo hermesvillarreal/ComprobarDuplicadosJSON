@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "edad": 25
+  },
+  {
+    "id": 2,
+    "nombre": "María",
+    "apellido": "González",
+    "edad": 30
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos",
+    "apellido": "Rodríguez",
+    "edad": 28
+  },
+  {
+    "id": 4,
+    "nombre": "Ana",
+    "apellido": "Martínez",
+    "edad": 35
+  },
+  {
+    "id": 2,
+    "nombre": "María",
+    "apellido": "González",
+    "edad": 30
+  },
+  {
+    "id": 5,
+    "nombre": "Pedro",
+    "apellido": "Sánchez",
+    "edad": 42
+  },
+  {
+    "id": 6,
+    "nombre": "Laura",
+    "apellido": "López",
+    "edad": 27
+  },
+  {
+    "id": 7,
+    "nombre": "Miguel",
+    "apellido": "Torres",
+    "edad": 33
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos",
+    "apellido": "Rodríguez",
+    "edad": 28
+  },
+  {
+    "id": 8,
+    "nombre": "Sofia",
+    "apellido": "Ramírez",
+    "edad": 31
+  },
+  {
+    "id": 9,
+    "nombre": "Diego",
+    "apellido": "Morales",
+    "edad": 29
+  },
+  {
+    "id": 6,
+    "nombre": "Laura",
+    "apellido": "López",
+    "edad": 27
+  }
+]
