@@ -48,6 +48,17 @@ def load_json_files(directory: Path) -> List[tuple]:
                     loaded_files.append((json_file.name, data))
                 else:
                     print(f"Advertencia: {json_file.name} no contiene un diccionario JSON válido")
+        except UnicodeDecodeError:
+            # Intentar con latin-1 si falla utf-8
+            try:
+                with open(json_file, 'r', encoding='latin-1') as f:
+                    data = json.load(f)
+                    if isinstance(data, dict):
+                        loaded_files.append((json_file.name, data))
+                    else:
+                        print(f"Advertencia: {json_file.name} no contiene un diccionario JSON válido")
+            except Exception as e:
+                print(f"Error procesando {json_file.name} con latin-1: {str(e)}")
         except json.JSONDecodeError:
             print(f"Error: {json_file.name} no es un JSON válido")
         except Exception as e:
